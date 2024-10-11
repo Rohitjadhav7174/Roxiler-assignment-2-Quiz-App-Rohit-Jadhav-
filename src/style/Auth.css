@@ -1,0 +1,63 @@
+.auth-container {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    position: relative;
+}
+
+.auth-container:hover {
+    transform: scale(1.02);
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 12px 10px 12px 40px;
+    width: 100%;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #f4f6f9;
+    background-image: url('https://img.icons8.com/material-outlined/24/000000/email-sign.png');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    transition: border-color 0.3s;
+}
+
+input[type="password"] {
+    background-image: url('https://img.icons8.com/material-outlined/24/000000/lock.png');
+}
+
+input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+p {
+    margin-top: 10px;
+    cursor: pointer;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+p:hover {
+    color: #0056b3;
+}
